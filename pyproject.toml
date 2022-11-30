@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "powerlifting-pi-camera"
+version = "0.1.0"
+description = ""
+authors = ["Amir Boussejra <amir@boussejra.com>"]
+readme = "README.md"
+packages = [{include = "powerlifting_pi_camera"}]
+
+[tool.poetry.dependencies]
+python = "3.7.3"
+flask = "1.0.2"
+tflite-runtime = "2.10.0"
+opencv-python = "^4.6.0.66"
+jinja2 = "2.10"
+markupsafe = "1.1.0"
+itsdangerous = "0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
